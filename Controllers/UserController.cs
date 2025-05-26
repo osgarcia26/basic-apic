@@ -1,11 +1,13 @@
 using Microsoft.AspNetCore.Mvc;
 using UserApi.Models;
 using UserApi.Services;
+using Microsoft.AspNetCore.Authorization;
 
 namespace UserApi.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
+[Authorize]
 public class UserController : ControllerBase
 {
     private readonly UserRepository _repository;
