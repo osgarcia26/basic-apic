@@ -1,0 +1,24 @@
+# .NET build
+bin/
+obj/
+*.user
+*.suo
+*.vs/
+*.cache
+*.log
+
+# Visual Studio Code
+.vscode/
+
+# User-specific files
+*.swp
+*.DS_Store
+*.user
+*.dbmdl
+
+# Secrets
+appsettings.Development.json
+secrets.json
+
+# Logs
+*.log
